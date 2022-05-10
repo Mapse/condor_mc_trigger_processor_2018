@@ -1,4 +1,4 @@
-# condor_mc_trigger_processor_2018
+# Condor Monte Carlo Trigger Processor 2018
 
 This repository contains the machinery for running condor in lxplus enviroment for producing .coffea files with trigger information. The files produced here are used for plotting HLT curves efficiencies.
 
