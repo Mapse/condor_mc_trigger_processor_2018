@@ -1,0 +1,65 @@
+# Charmonium test
+charmonium_test:
+    - primary_dataset: "Charmonium"
+      datatier: "AOD"
+      year: "2017"
+      path: 
+        - "data/path/Charmonium/CharmoniumAOD0000path.txt"
+        - "data/path/Charmonium/CharmoniumAOD0001path.txt"
+        - "data/path/Charmonium/CharmoniumAOD0002path.txt"
+        - "data/path/Charmonium/CharmoniumAOD0003path.txt"
+        - "data/path/Charmonium/CharmoniumAOD0004path.txt"
+        - "data/path/Charmonium/CharmoniumAOD0005path.txt"
+        - "data/path/Charmonium/CharmoniumAOD0006path.txt"
+    
+    - primary_dataset: "Charmonium"
+      datatier: "MINIAOD"
+      year: "2017"
+      path: 
+        - "data/path/Charmonium/CharmoniumMINIAODpath.txt"
+
+# muonia_test
+muonia_test:
+    - primary_dataset: "MuOnia"
+      datatier: "MINIAOD"
+      year: "2017"
+      path: 
+        - "data/path/MuOnia/MuOniaMINIAODpath.txt"
+
+# doublemuon_test
+doublemuon_test:
+    - primary_dataset: "DoubleMuon"
+      datatier: "AOD"
+      year: "2017"
+      path: 
+        - "data/path/DoubleMuon/DoubleMuonAODpath.txt"
+
+# MuOnia 2010 data DESY
+data2010:
+  - primary_dataset: "MuOnia"
+    datatier: "AOD"
+    year: "2010"
+    path: 
+        - "data/path/data2010/data2010_0000_path.txt"
+        - "data/path/data2010/data2010_0001_path.txt"
+        - "data/path/data2010/data2010_0002_path.txt"
+
+local_test:
+  - primary_dataset: "MuOnia"
+    datatier: "AOD"
+    year: "test"
+    path:
+      - data/path/local_test/MuOnia_path.txt
+  
+  - primary_dataset: "Charmonium"
+    datatier: "AOD"
+    year: "test"
+    path:
+      - data/path/local_test/Charmonium_path.txt 
+
+MC:
+  - primary_dataset: "UpsilonToMuMu"
+    datatier: "AOD"
+    year: "test"
+    path:
+    - data/path/MC/UpsilonToMuMu_path.txt
